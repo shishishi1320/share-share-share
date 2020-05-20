@@ -3,5 +3,6 @@
 .postDate
   = @post.created_at
 .postAuthor
+  = link_to "編集", edit_post_path(@post.id), class: "postManage__edit"
 .postText
   = simple_format @post.content
