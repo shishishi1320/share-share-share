@@ -3,6 +3,7 @@ body{
   background: -moz-radial-gradient(#F13F79, #FFC778); 
   background: -webkit-radial-gradient(#F13F79, #FFC778); 
   background: radial-gradient(#F13F79, #FFC778); 
+  height: 100vh;
   .header{
     height: 56px;
     width: 1000p;
@@ -31,7 +32,7 @@ body{
   .contents{
     margin: 30px auto 0;
     background-color: #fff;
-    height: 600px;
+    height: 80%;
     width: 70%;
     overflow: scroll;
     .content{
