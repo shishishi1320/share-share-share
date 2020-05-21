@@ -24,6 +24,7 @@ class HealthsController < ApplicationController
     health.update(health_params)
     redirect_to root_path
   end
+  
   def destroy
     health = Health.find(params[:id])
     hhealth.destroy(health_params)
