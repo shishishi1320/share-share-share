@@ -9,7 +9,7 @@ class HealthsController < ApplicationController
 
   def create
     Health.create(health_params)
-    redirect_to health_path
+    redirect_to healths_path
   end
 
   def show
