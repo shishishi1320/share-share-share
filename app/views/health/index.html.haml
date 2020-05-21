@@ -1,1 +1,12 @@
-asdf
+.shaer 
+  = link_to "新規投稿", new_health_path, class: "header__right--btn"
+- @healths.each do |health|
+  .content
+    .content__left
+      .content__left--image
+    .content__right
+      .content__right__top
+        = link_to health.title, healths_path(health.id),class: "content__right__top--title"
+      .content__right__bottom
+        .content__right__bottom--date
+          = health.created_at
