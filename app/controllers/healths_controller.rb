@@ -27,7 +27,7 @@ class HealthsController < ApplicationController
   
   def destroy
     health = Health.find(params[:id])
-    hhealth.destroy
+    health.destroy
     redirect_to root_path
   end
   private
