@@ -31,7 +31,7 @@ class HealthsController < ApplicationController
     redirect_to root_path
   end
   private
-  def Health_params
+  def health_params
     params.require(:health).permit(:title, :content)
   end
 end
