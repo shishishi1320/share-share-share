@@ -1,8 +1,8 @@
 body{
   background-color: #f6f6f6;
-  background: -moz-radial-gradient(#F13F79, #FFC778); 
-  background: -webkit-radial-gradient(#F13F79, #FFC778); 
-  background: radial-gradient(#F13F79, #FFC778); 
+  background: -moz-radial-gradient(rgb(101, 63, 241), #FFC778); 
+  background: -webkit-radial-gradient(rgb(176, 63, 241), #FFC778); 
+  background: radial-gradient(rgb(101, 63, 241), #FFC778); 
   height: 100vh;
   .header{
     height: 56px;
