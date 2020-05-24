@@ -12,7 +12,7 @@
     .header__title
       = link_to "SHARE", root_path, class: "header__title--text"
     .header__center
-      = link_to "健康", health_index_path, class: "midlle__left--btn"
+      = link_to "健康", healths_path, class: "midlle__left--btn"
     .header__right
       - if user_signed_in?
         = link_to "新規投稿", new_post_path, class: "header__right--btn"
