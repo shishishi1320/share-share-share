@@ -1,13 +1,13 @@
-.post__share
+.heath__share
 - if user_signed_in?
   = link_to "新規投稿", new_health_path, class: "header__right--btn"
-- @posts.each do |post|
+- @healths.each do |health|
   .content
     .content__left
       .content__left--image
     .content__right
       .content__right__top
-        = link_to post.title, post_path(post.id),class: "content__right__top--title"
+        = link_to health.title, health_path(health.id),class: "content__right__top--title"
       .content__right__bottom
         .content__right__bottom--date
-          = post.created_at
+          = health.created_at

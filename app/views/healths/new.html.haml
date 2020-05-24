@@ -1,0 +1,6 @@
+.content__title
+  新規作成
+= form_for @health do |form|
+  = form.text_field :title, placeholder: :タイトル, class: :form__title
+  = form.text_area :content, placeholder: :健康に関する記述, class: :form__text
+  = form.submit '投稿する', class: :form__btn
