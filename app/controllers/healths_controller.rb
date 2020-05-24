@@ -9,7 +9,7 @@ class HealthsController < ApplicationController
 
   def create
     Health.create(health_params)
-    redirect_to healths_path
+    redirect_to omikuji_index_path
   end
 
   def show
