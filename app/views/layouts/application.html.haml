@@ -11,6 +11,8 @@
   %header.header
     .header__title
       = link_to "SHARE", root_path, class: "header__title--text"
+    .header__center
+      
     .header__right
       - if user_signed_in?
         = link_to "新規投稿", new_post_path, class: "header__right--btn"
