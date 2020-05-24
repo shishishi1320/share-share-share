@@ -1,4 +1,5 @@
-.shaer 
+.heath__share
+- if user_signed_in?
   = link_to "新規投稿", new_health_path, class: "header__right--btn"
 - @healths.each do |health|
   .content
