@@ -1,24 +1,56 @@
 # README
+# アプリ名　
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+share-share-share
+# 概要
 
-Things you may want to cover:
+# デプロイ先　
+https://share-shaer-share.herokuapp.com
+# 使用言語
+ruby　javascript　html　haml scss
+# フレームワーク
+ruby on rails
+# version
+ruby 2.5.1
 
-* Ruby version
+ruby on rails 5.0.7.2
+# 制作背景(意図)
+生活していく上で必要な情報を共有するために作りました。
 
-* System dependencies
+# DEMO
+[![Image from Gyazo](https://i.gyazo.com/5a1aec0d2fb6689fa61e655e129bbc30.png)](https://gyazo.com/5a1aec0d2fb6689fa61e655e129bbc30)
+[![Image from Gyazo](https://i.gyazo.com/38bc9fb4dd466847bac5b8b3f1093b6e.png)](https://gyazo.com/38bc9fb4dd466847bac5b8b3f1093b6e)
 
-* Configuration
+# DB設計
+## usersテーブル
+|Column|Type|Options|
+|------|----|-------|
+|email|string|null: false|
+|password|string|null: false|
+|nickname|string|null: false|
+### Association
+- has_many :posts
+- has_many :healths
+## postsテーブル
+|Column|Type|Options|
+|------|----|-------|
+|title|string|null: false|
+|cntent|string|null: false|
+|user_id|integer|null: false|
+### Association
+- belong_to :users
 
-* Database creation
+## healthsテーブル
+|Column|Type|Options|
+|------|----|-------|
+|title|string|null: false|
+|cntent|string|null: false|
+|user_id|integer|null: false|
+### Association
+- belong_to :users
+# 今後実装したいもの
+健康というカテゴリーだけでなく他の種類も作る
 
-* Database initialization
+いいね機能
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ユーザーマイページ
