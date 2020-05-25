@@ -1,6 +1,6 @@
 class HealthsController < ApplicationController
   def index
-    @healths = Health.all
+    @healths = Health.includes(:user)
   end 
 
   def new
@@ -32,6 +32,6 @@ class HealthsController < ApplicationController
   end
   private
   def health_params
-    params.require(:health).permit(:title, :content)
+    params.require(:health).permit(:title, :content).merge(user_id: current_user.id)
   end
 end

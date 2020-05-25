@@ -9,5 +9,6 @@
       .content__right__top
         = link_to health.title, health_path(health.id),class: "content__right__top--title"
       .content__right__bottom
+        = health.user.nickname
         .content__right__bottom--date
           = health.created_at
