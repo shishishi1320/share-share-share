@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   resources :posts, except: :index
   resources :omikuji, only: [:index]
   resources :healths
+  resources :users, only: :show
 end

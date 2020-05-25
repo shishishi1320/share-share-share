@@ -3,6 +3,7 @@
 .postDate
   = @health.created_at
 .postAuthor
+- if user_signed_in? && current_user.id == @health.user_id
   = link_to "編集", edit_health_path(@health.id), class: "postManage__edit"
   = link_to "削除", health_path(@health.id), method: :delete, class: "postManage__delete"
 .postText
