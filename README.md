@@ -3,7 +3,11 @@
 
 share-share-share
 # 概要
+いろんな人が投稿した記事がみれる
 
+新規登録すれば自分も投稿でき投稿するとおみくじが引ける
+
+健康というカテゴリーにも行ける
 # デプロイ先　
 https://share-shaer-share.herokuapp.com
 # 使用言語
