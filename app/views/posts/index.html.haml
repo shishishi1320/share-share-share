@@ -1,3 +1,6 @@
+.post__share
+- if user_signed_in?
+  = link_to "新規投稿", new_post_path, class: "header__right--btn"
 - @posts.each do |post|
   .content
     .content__left
