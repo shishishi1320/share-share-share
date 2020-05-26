@@ -15,11 +15,30 @@ body{
     &__title{
       font-size: 30px;
       line-height: 56px;
+      font-family: cursive;
       &--text{
         text-decoration: none;
         color: #fff;
       }
     }
+    &__center{
+      width: 300px;
+      font-size: 20px;
+      display: flex;
+      justify-content: space-around;
+      line-height: 40px;
+      &--left:active{
+        font-size: 40px;
+        
+        cursor: pointer;
+      }
+      &--right:active{
+           font-size: 40px;
+           cursor: pointer;
+           color: blue;
+    }
+        
+      }
     &__right{
       &--btn{
         text-decoration: none;
