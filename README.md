@@ -22,8 +22,7 @@ ruby on rails 5.0.7.2
 最終課題を通じて個人のスキルを磨くことはもちろんですが、それ以上に他人とのコミュニケーションによる、情報の共有が大切だと感じました。しかし、インターネットやメディアなどでは自分が欲しいと思っていない情報も多いため、生活や健康の役に立つ情報だけをまとめて、シェアできる物を作りたいと思い、このアプリを作成しようと思いました。投稿後に引けるおみくじはjavascriputに触れる機会が少なかったためアウトプットとして追加してみました。
 
 # DEMO
-[![Image from Gyazo](https://i.gyazo.com/5a1aec0d2fb6689fa61e655e129bbc30.png)](https://gyazo.com/5a1aec0d2fb6689fa61e655e129bbc30)
-[![Image from Gyazo](https://i.gyazo.com/38bc9fb4dd466847bac5b8b3f1093b6e.png)](https://gyazo.com/38bc9fb4dd466847bac5b8b3f1093b6e)
+[![Image from Gyazo](https://i.gyazo.com/a91161605607802b74a41653ab5a8d49.gif)](https://gyazo.com/a91161605607802b74a41653ab5a8d49)
 
 # DB設計
 ## usersテーブル
