@@ -1,8 +1,8 @@
 body{
   background-color: #f6f6f6;
-  background: -moz-radial-gradient(rgb(101, 63, 241), #FFC778); 
-  background: -webkit-radial-gradient(rgb(176, 63, 241), #FFC778); 
-  background: radial-gradient(rgb(101, 63, 241), #FFC778); 
+  background: -moz-radial-gradient(rgb(30, 7, 231), rgb(100, 232, 255));
+  background: -webkit-radial-gradient(rgb(30, 7, 231), rgb(100, 232, 255)); 
+  background: radial-gradient(rgb(30, 7, 231), rgb(100, 232, 255)); 
   height: 100vh;
   .header{
     height: 56px;
@@ -15,11 +15,30 @@ body{
     &__title{
       font-size: 30px;
       line-height: 56px;
+      font-family: cursive;
       &--text{
         text-decoration: none;
         color: #fff;
       }
     }
+    &__center{
+      width: 300px;
+      font-size: 20px;
+      display: flex;
+      justify-content: space-around;
+      line-height: 40px;
+      &--left:active{
+        font-size: 40px;
+        
+        cursor: pointer;
+      }
+      &--right:active{
+           font-size: 40px;
+           cursor: pointer;
+           color: blue;
+    }
+        
+      }
     &__right{
       &--btn{
         text-decoration: none;
