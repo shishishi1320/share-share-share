@@ -13,11 +13,13 @@ body{
     display: flex;
     justify-content: space-between;
     &__title{
+      width: 120px;
       font-size: 30px;
       line-height: 56px;
-      font-family: cursive;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       background-color: black;
       box-shadow: 1px 1px #000000;
+      text-align: center;
       &--text{
         text-decoration: none;
         color:white;
@@ -32,13 +34,17 @@ body{
   }
     &__center{
       width: 300px;
-      font-size: 30px;
+      font-size: 20px;
       display: flex;
       justify-content: space-around;
+      border-radius:30px;
+      text-align: center;
       line-height: 60px;
       &--left {
+        background-color:gray;
         color: blue;
-        
+        width: 120px;
+        border-radius:30px;
       }
       &--left:active{
         color: red;
@@ -47,10 +53,13 @@ body{
        
       } 
       &--right{
+        width: 180px;
         color: red;
+        background-color: gray;
+        border-radius:30px;
       }
       &--right:active{
-           font-size: 40px;
+           font-size: 30px;
            cursor: pointer;
            color: blue;
     }
