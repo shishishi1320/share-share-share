@@ -16,21 +16,38 @@ body{
       font-size: 30px;
       line-height: 56px;
       font-family: cursive;
+      background-color: black;
+      box-shadow: 1px 1px #000000;
       &--text{
         text-decoration: none;
-        color: #fff;
-      }
+        color:white;
     }
+  }
+    &__title:active{
+    position: relative;
+    top: 3px;
+    left:5px;
+    box-shadow: none;
+    
+  }
     &__center{
       width: 300px;
-      font-size: 20px;
+      font-size: 30px;
       display: flex;
       justify-content: space-around;
-      line-height: 40px;
-      &--left:active{
-        font-size: 40px;
+      line-height: 60px;
+      &--left {
+        color: blue;
         
+      }
+      &--left:active{
+        color: red;
+        font-size: 40px;
         cursor: pointer;
+       
+      } 
+      &--right{
+        color: red;
       }
       &--right:active{
            font-size: 40px;
@@ -118,7 +135,7 @@ body{
       display: flex;
       justify-content: center;
       margin-top: 10px;
-      &__edit{
+      &__edit %a{
         display: block;
         border-radius: 5px;
         color: #ffffff;
@@ -126,8 +143,9 @@ body{
         padding: 0 10px;
         text-decoration: none;
         margin-right: 10px;
+
       }
-      &__delete{
+      &__delete %a{
         display: block;
         border-radius: 5px;
         color: #ffffff;
@@ -135,6 +153,7 @@ body{
         padding: 0 10px;
         text-decoration: none;
         margin-left: 10px;
+    
       }
     }
     .postText{
