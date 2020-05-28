@@ -34,6 +34,8 @@ ruby on rails 5.0.7.2
 ### Association
 - has_many :posts
 - has_many :healths
+- has_many :works
+
 ## postsテーブル
 |Column|Type|Options|
 |------|----|-------|
@@ -44,6 +46,14 @@ ruby on rails 5.0.7.2
 - belong_to :users
 
 ## healthsテーブル
+|Column|Type|Options|
+|------|----|-------|
+|title|string|null: false|
+|cntent|string|null: false|
+|user_id|integer|null: false|
+### Association
+- belong_to :users
+## worksテーブル
 |Column|Type|Options|
 |------|----|-------|
 |title|string|null: false|
