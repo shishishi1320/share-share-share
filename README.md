@@ -62,7 +62,7 @@ ruby on rails 5.0.7.2
 ### Association
 - belong_to :users
 # 今後実装したいもの
-健康というカテゴリーだけでなく他の種類も作る
+カテゴリーを増やす
 
 いいね機能
 
