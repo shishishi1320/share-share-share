@@ -1,6 +1,8 @@
 .work__share
 - if user_signed_in?
   = link_to "新規投稿", new_work_path, class: "header__right--btn"
+.work__title
+  仕事・勉強
 - @works.each do |work|
   .content
     .content__left
